@@ -1,4 +1,9 @@
-apply plugin: 'com.android.application'
+//apply plugin: 'com.android.application'
+
+plugins {
+    id 'com.android.application'
+//    id 'kotlin-android' // 如果需要使用 Kotlin
+}
 
 android {
     lintOptions {
@@ -22,10 +27,10 @@ android {
         //multiDexEnabled true // avoid ?
     }
     buildFeatures {
-        dataBinding{
-            enabled=true
-        }
+        dataBinding true
     }
+
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8

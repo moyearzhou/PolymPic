@@ -17,7 +17,7 @@ dependencies {
 
     api files('libs/closure-compiler-v20200628.jar')
 
-    api files(Jvm.current().getToolsJar())
+//    api files(Jvm.current().getToolsJar())
     //compileOnly "com.google.auto.service:auto-service:1.0-rc6"
     //annotationProcessor "com.google.auto.service:auto-service:1.0-rc6"
     //api files('libs/closure-compiler-v20190929.jar')
